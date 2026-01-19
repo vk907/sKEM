@@ -5,7 +5,7 @@ etas,etae=3,4
 # etas,etae=2,2 for 256-bit security
 Q=7681
 n=256
-d=2
+d=2 # d=5 for 256-bit security
 N=n*d
 params = LWEest(
      n=N,
